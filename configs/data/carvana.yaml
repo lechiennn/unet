@@ -1,0 +1,7 @@
+_target_: src.data.carvana_datamodule.CarvanaDataModule
+image_dir: data/train_hq
+mask_dir: data/train_masks
+batch_size: 8
+train_val_test_split: [3568, 480, 1040]
+num_workers: 0
+pin_memory: False
